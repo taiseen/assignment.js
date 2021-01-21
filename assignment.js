@@ -42,7 +42,7 @@ function hotelCost(days) {
     let lastDays = 0;
 
     if (days <= 0) {
-        return "Please Enter a Positive Integer Value"
+        return "Please Enter a Positive Integer Value."
     } else {
 
         // For 1st ---> 10 Day's
