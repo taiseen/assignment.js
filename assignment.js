@@ -1,6 +1,6 @@
 // https://github.com/taiseen/assignment.js
 
-// Number 1 
+// Number - 1 
 function kilometerToMeter(km) {
 
     const meter = 1000;
@@ -16,7 +16,7 @@ function kilometerToMeter(km) {
 
 
 
-// Number 2 
+// Number - 2 
 function budgetCalculator(watch, phone, laptop) {
 
     const watchPrice = 50;
@@ -38,7 +38,7 @@ function budgetCalculator(watch, phone, laptop) {
 
 
 
-// Number 3 
+// Number - 3 
 function hotelCost(days) {
 
     let totalCost = 0;
@@ -78,13 +78,13 @@ function hotelCost(days) {
         totalCost = firstTenDays + secondTenDays + lastDays;
         return totalCost;
     }
-    
+
 }
-//console.log(hotelCost(11));
+//console.log(hotelCost(21));
 
 
 
-// Number 4 
+// Number - 4 
 function megaFriend(names) {
 
     if (names.length === 0 || names == 0 || names == null) {
