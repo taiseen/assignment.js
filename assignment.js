@@ -2,12 +2,15 @@
 
 // Number 1 
 function kilometerToMeter(km) {
+
     const meter = 1000;
+
     if (km < 0) {
         return "Distance cannot be negative."
     } else {
         return meter * km;
     }
+
 }
 //console.log( kilometerToMeter( -5 ) );
 
@@ -15,6 +18,7 @@ function kilometerToMeter(km) {
 
 // Number 2 
 function budgetCalculator(watch, phone, laptop) {
+
     const watchPrice = 50;
     const phonePrice = 100;
     const laptopPrice = 500;
@@ -28,6 +32,7 @@ function budgetCalculator(watch, phone, laptop) {
     } else {
         return "Please Insert Valid Number."
     }
+
 }
 //console.log( budgetCalculator( 1 , 1 , 0 ) );
 
@@ -73,6 +78,7 @@ function hotelCost(days) {
         totalCost = firstTenDays + secondTenDays + lastDays;
         return totalCost;
     }
+    
 }
 //console.log(hotelCost(11));
 
@@ -81,11 +87,14 @@ function hotelCost(days) {
 // Number 4 
 function megaFriend(names) {
 
-    if (names.length === 0 || names == 0 || names == null ) {
+    if (names.length === 0 || names == 0 || names == null) {
         return "Empty Array Not Supported."
     } else {
+
         var index = 0;
+
         var maxName = names[0].length;
+
         for (var i = 0; i < names.length; i++) {
 
             var nm = names[i];
